@@ -1,0 +1,20 @@
+{
+    "phases": [
+        "Stampa",
+        "Fustellatura",
+        "Saldatura"
+    ],
+    "stampa": [
+      { "name": "Colore", "value": "Green" },
+      { "name": "Allineamento", "value": "+0.1mm" },
+      { "name": "Scritte", "value": "Yes" }
+    ],
+    "fustellatura": [
+      { "name": "Ritaglio", "value": "Yes" },
+      { "name": "Allineamento", "value": "+0.1mm" }
+    ],
+    "saldatura": [
+      { "name": "Spessore", "value": "0.3mm" },
+      { "name": "Zigrinatura", "value": "+0.1mm" }
+    ]
+  }

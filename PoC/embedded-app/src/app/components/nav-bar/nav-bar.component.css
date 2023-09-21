@@ -1,0 +1,22 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+#lang {
+    width: 2.5em;
+    height: 2.5em;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.menuFlag {
+    width: clamp(1em, 30px, 50px);
+}
+
+.menuLanguage {
+    margin: 10px;
+}
+
+#activeLanguage {
+    width: 2.5em
+}
