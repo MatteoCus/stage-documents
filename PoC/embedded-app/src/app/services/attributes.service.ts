@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Attribute } from '../attribute.class';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +10,7 @@ export class AttributesService {
 
   constructor(private http: HttpClient) { }
 
-  fetch(phase: string) : Observable<Array<Attribute>> {
+  fetch(phase: string): Observable<Array<Attribute>> {
     return this.http.get<Array<Attribute>>("http://localhost:3000/" + phase.toLowerCase());
   }
 

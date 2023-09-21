@@ -23,7 +23,7 @@ export class PhasesComponent {
   }
 
   setActivePhase(phase: string) {
-    // modificare la fase attiva in 'active-phase-service'
+    this.phasesService.update(phase);
   }
 
   ngOnInit(){

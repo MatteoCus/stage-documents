@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
+import { Observable, Subject, flatMap, mergeMap, switchMap } from 'rxjs';
 import { Attribute } from 'src/app/attribute.class';
 import { AttributesService } from 'src/app/services/attributes.service';
+import { PhasesService } from 'src/app/services/phases.service';
 
 @Component({
   selector: 'app-attributes',
@@ -9,9 +11,15 @@ import { AttributesService } from 'src/app/services/attributes.service';
 })
 export class AttributesComponent {
 
-  attributes: Array<Attribute> = new Array<Attribute>();
+  private activePhase : Observable<string> = this.phasesService.getActivePhase();
+  public activeAttributes: Array<Attribute> = new Array<Attribute>();
 
-  constructor(public attributesService: AttributesService) {}
+  constructor(private attributesService: AttributesService, private phasesService: PhasesService) {
+    
+    this.activePhase.pipe(
+      mergeMap(phase => this.attributesService.fetch(phase))
+    ).subscribe(attributes => this.activeAttributes = attributes);
+  }
 
   public uploadAttributes(phase: string, attributes: Array<Attribute>) { 
     this.attributesService.upload(phase,attributes).subscribe(
@@ -19,12 +27,5 @@ export class AttributesComponent {
     );
    }
 
-  public get Attributes() { return this.attributes;}
-
-  public fetchAttributes(phase: string){
-    this.attributesService.fetch(phase).subscribe(
-      data => this.attributes = data
-    );
-  }
 
 }
