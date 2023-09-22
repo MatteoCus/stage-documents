@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { PhasesService } from './services/phases.service';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -11,21 +12,31 @@ export class AppComponent {
   title = 'embedded-app';
   visible: boolean = true;
   logged: boolean = false;
-  private phase: string = "";
   private token: string = "";
-  constructor(private route: ActivatedRoute, private phasesService: PhasesService){
+  constructor(private translate: TranslateService, private route: ActivatedRoute, private phasesService: PhasesService){
+    this.translate.setDefaultLang('it');
+    this.translate.use(localStorage.getItem('lang') || 'it');
+  }
+
+  setLanguage(lang: string): void {
+    localStorage.setItem('lang', lang);
+    this.translate.use(localStorage.getItem('lang') || 'it');
   }
   
   ngOnInit() {
     this.route.queryParams
       .subscribe(params => {
-        if(params && params['token'] && params['phase']){
+        if(params && params['token'] && params['phase'] && params['lang']){
+
           this.token = params['token'];
-          this.phase = params['phase'];
+          const lang = params['lang'];
+
+          this.setLanguage(lang);
+
           this.visible = false;
           this.logged = true;
 
-          var phase = this.phase;
+          var phase = params['phase'];
           var service = this.phasesService; 
 
           // Osserva il rendering del frame stesso: appena renderizzato, fa il fetch degli attributi

@@ -5,11 +5,11 @@
             <img src="assets/icons/route.png" id="activeLanguage" />
     </button>
     <mat-menu #lang="matMenu">
-        <button mat-menu-item>
+        <button mat-menu-item (click)="changeLanguage('it')">
             <img src="assets/icons/italy.png" class="menuFlag">
             <span class="menuLanguage">Italiano</span>
           </button>
-          <button mat-menu-item>
+          <button mat-menu-item (click)="changeLanguage('en')">
             <img src="assets/icons/united-kingdom.png" class="menuFlag">
             <span class="menuLanguage">Inglese</span>
           </button>
