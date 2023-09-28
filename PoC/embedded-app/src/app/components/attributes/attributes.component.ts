@@ -10,13 +10,11 @@ import { PhasesService } from 'src/app/services/phases.service';
   styleUrls: ['./attributes.component.css']
 })
 export class AttributesComponent {
-
-  private activePhase : Observable<string> = this.phasesService.getActivePhase();
   public activeAttributes: Array<Attribute> = new Array<Attribute>();
 
   constructor(private attributesService: AttributesService, private phasesService: PhasesService) {
     
-    this.activePhase.pipe(
+    this.phasesService.getActivePhase().pipe(
       mergeMap(phase => this.attributesService.fetch(phase))
     ).subscribe(attributes => this.activeAttributes = attributes);
   }
