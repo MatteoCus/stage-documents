@@ -7,7 +7,7 @@ import { PhasesService } from 'src/app/services/phases.service';
   styleUrls: ['./phases.component.css']
 })
 export class PhasesComponent {
-  phases: Array<string> = new Array<string>();
+  phases: Array<number> = new Array<number>();
 
   constructor(private phasesService: PhasesService){
 
@@ -27,10 +27,6 @@ export class PhasesComponent {
   }
 
   ngOnInit(){
-    this.phasesService.fetch().subscribe(
-      data => {
-        this.phases = data;
-      }
-    )
+    this.phases = [...Array(150).keys()];
   }
 }

@@ -1,3 +1,5 @@
-<button mat-raised-button color="warn" *ngFor="let phase of phases" class="phase" (click)="setActivePhase(phase)" >
-    {{phase}}
-</button>
+<cdk-virtual-scroll-viewport appendOnly itemSize="50" class="example-viewport">
+    <button mat-raised-button color="warn" *cdkVirtualFor="let phase of phases" class="phase" (click)="setActivePhase(phase)" >
+        {{phase}}
+    </button>
+</cdk-virtual-scroll-viewport>
