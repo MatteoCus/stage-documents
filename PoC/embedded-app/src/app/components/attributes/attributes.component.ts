@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
+import { MatLabel } from '@angular/material/form-field';
 import { Observable, Subject, flatMap, mergeMap, switchMap } from 'rxjs';
 import { QualityattributeModel } from 'src/app/api/models';
 import { JsonList } from 'src/app/api/models/qualityattribute-model';
@@ -12,9 +14,11 @@ import { PhasesService } from 'src/app/services/phases.service';
 })
 export class AttributesComponent {
   public activeAttributes: Array<QualityattributeModel> = new Array<QualityattributeModel>();
+  public activeColumnNames: string[] = [];
+  formGroup = new FormGroup({});
 
   constructor(private qualityAttributeService: QualityAttributeService, private phasesService: PhasesService) {
-    
+
     const fieldName = "m_product_category_id" as 'optionvalue' | 'groupname' | 'groupdescription' | 'c_project_attribute_group_id' | 'attributeseqno' | 'attributedescription' | 'ad_reference_id' | 'm_product_category_id' | 'm_product_id' | 'attributevaluetype' | 'attributevalue' | 'attributename'
     const value = 9000000;
     const operator = "equals" as "equals"  | "iContains" | "greaterOrEqual" | "lessOrEqual" | undefined;
@@ -38,7 +42,17 @@ export class AttributesComponent {
     .subscribe({
       next: (response) => {
         (response.data != undefined && response.data != null && response.data.length != 0) ?  this.activeAttributes = response.data.map<QualityattributeModel>((attribute) => {return this.filterJsonOptions(attribute)})  : console.log("Attributi non presenti!");
-        console.log(this.activeAttributes);
+        this.activeColumnNames = this.activeAttributes.map((attribute) => {return attribute.attributename!});
+        this.formGroup = new FormGroup({});
+
+        this.activeAttributes.forEach((value,index) => {
+          if(value.attributevaluetype == "Y") {
+            this.formGroup.addControl("control-" + index.toString(), new FormControl(false, Validators.required));
+          } else {
+            this.formGroup.addControl("control-" + index.toString(), new FormControl('', Validators.required));
+          }
+        });
+
       },
       error: (error) => {
         console.log(error);
@@ -92,4 +106,9 @@ export class AttributesComponent {
     }
     return array;
   }
+
+  onSubmit() {
+    console.info(this.formGroup.value);
+  }
+
 }
