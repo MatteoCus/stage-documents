@@ -55,11 +55,11 @@ export class AttributesComponent {
     };
     if(json != undefined) {
       const parsedJson = JSON.parse(json);
+      const filteredValue = this.removeKeys(parsedJson.value, parsedJson.key);
       dataList = {
-        key: parsedJson.key,
-          value: parsedJson.value,
+          key: parsedJson.key,
+          value: filteredValue,
         };
-      json = dataList.toString();
     }
 
     return {
@@ -80,5 +80,16 @@ export class AttributesComponent {
       }
     }
   
+  }
+
+  private removeKeys(values: string[], keys: string[]): string[] {
+    let array : string[] = [];
+    if(values != null && values.length) {
+      values.forEach((value,index) => {
+        const newValue = value.replaceAll(keys[index],"").replaceAll("-","").trim();
+        array.push(newValue);
+      }, array);
+    }
+    return array;
   }
 }
