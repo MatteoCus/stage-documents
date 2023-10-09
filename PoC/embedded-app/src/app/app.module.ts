@@ -13,6 +13,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatSelectModule } from '@angular/material/select';
 import {ScrollingModule} from '@angular/cdk/scrolling';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
@@ -44,6 +47,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatToolbarModule,
     MatButtonModule,
     MatMenuModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
     ScrollingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: !isDevMode(),

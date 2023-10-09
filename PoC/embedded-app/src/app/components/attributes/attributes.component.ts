@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { Observable, Subject, flatMap, mergeMap, switchMap } from 'rxjs';
-import { Attribute } from 'src/app/attribute.class';
-import { AttributesService } from 'src/app/services/attributes.service';
+import { QualityattributeModel } from 'src/app/api/models';
+import { JsonList } from 'src/app/api/models/qualityattribute-model';
+import { QualityAttributeService } from 'src/app/api/services';
 import { PhasesService } from 'src/app/services/phases.service';
 
 @Component({
@@ -10,20 +11,74 @@ import { PhasesService } from 'src/app/services/phases.service';
   styleUrls: ['./attributes.component.css']
 })
 export class AttributesComponent {
-  public activeAttributes: Array<Attribute> = new Array<Attribute>();
+  public activeAttributes: Array<QualityattributeModel> = new Array<QualityattributeModel>();
 
-  constructor(private attributesService: AttributesService, private phasesService: PhasesService) {
+  constructor(private qualityAttributeService: QualityAttributeService, private phasesService: PhasesService) {
     
-    this.phasesService.getActivePhase().pipe(
-      mergeMap(phase => this.attributesService.fetch(phase))
-    ).subscribe(attributes => this.activeAttributes = attributes);
+    const fieldName = "m_product_category_id" as 'optionvalue' | 'groupname' | 'groupdescription' | 'c_project_attribute_group_id' | 'attributeseqno' | 'attributedescription' | 'ad_reference_id' | 'm_product_category_id' | 'm_product_id' | 'attributevaluetype' | 'attributevalue' | 'attributename'
+    const value = 9000000;
+    const operator = "equals" as "equals"  | "iContains" | "greaterOrEqual" | "lessOrEqual" | undefined;
+    const token = "eyJjcmVhdGVkIjoxNjk2ODMzNTUwMjcyLCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.O87c7wdZOhX0aM12NCI2PezXMl_APkUsq5e8RMf5HMYrfkdkMnYbY0LXxT4mFAQb02hf7vYnWUBPpNoVpegHBw";
+
+    const params = {
+      "AdesuiteToken": token, 
+      "body": {
+           "startRow": 0,
+           "criteria" : [
+             {
+               "fieldName": fieldName as 'optionvalue' | 'groupname' | 'groupdescription' | 'c_project_attribute_group_id' | 'attributeseqno' | 'attributedescription' | 'ad_reference_id' | 'm_product_category_id' | 'm_product_id' | 'attributevaluetype' | 'attributevalue' | 'attributename',
+               "value": value?.toString(),
+               "operator": operator as 'iContains' | 'greaterOrEqual' | 'lessOrEqual' | 'equals'
+             },
+          ],
+           "endRow": 50
+      }};
+
+    this.qualityAttributeService.fetch_3(params)
+    .subscribe({
+      next: (response) => {
+        (response.data != undefined && response.data != null && response.data.length != 0) ?  this.activeAttributes = response.data.map<QualityattributeModel>((attribute) => {return this.filterJsonOptions(attribute)})  : console.log("Attributi non presenti!");
+        console.log(this.activeAttributes);
+      },
+      error: (error) => {
+        console.log(error);
+      }
+  });
+
   }
 
-  public uploadAttributes(phase: string, attributes: Array<Attribute>) { 
-    this.attributesService.upload(phase,attributes).subscribe(
-      result => console.log(result)
-    );
-   }
+  public filterJsonOptions(attribute: QualityattributeModel): QualityattributeModel {
+    let json = attribute.optionvalue?.value.toString();
+    let dataList: JsonList = {
+      key: [],
+      value: []
+    };
+    if(json != undefined) {
+      const parsedJson = JSON.parse(json);
+      dataList = {
+        key: parsedJson.key,
+          value: parsedJson.value,
+        };
+      json = dataList.toString();
+    }
 
-
+    return {
+      ad_reference_id: attribute.ad_reference_id,
+      attributedescription: attribute.attributedescription,
+      attributename: attribute.attributename,
+      attributeseqno: attribute.attributeseqno,
+      attributevalue: attribute.attributevalue,
+      attributevaluetype: attribute.attributevaluetype,
+      c_project_attribute_group_id: attribute.c_project_attribute_group_id,
+      groupdescription: attribute.groupdescription,
+      groupname: attribute.groupname,
+      m_product_category_id: attribute.m_product_category_id,
+      m_product_id: attribute.m_product_id,
+      optionvalue: {
+        type: attribute.optionvalue?.type!,
+        value: dataList
+      }
+    }
+  
+  }
 }
