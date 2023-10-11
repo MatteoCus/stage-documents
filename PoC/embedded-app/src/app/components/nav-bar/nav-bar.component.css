@@ -20,3 +20,7 @@
 #activeLanguage {
     width: 2.5em
 }
+
+mat-toolbar {
+    height: 70px;
+}

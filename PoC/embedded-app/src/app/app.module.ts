@@ -22,6 +22,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {MatTableModule} from '@angular/material/table';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatSidenavModule} from '@angular/material/sidenav';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -55,6 +57,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MatTableModule,
     ReactiveFormsModule,
     MatSelectModule,
+    MatSidenavModule,
+    MatExpansionModule,
     MatCheckboxModule,
     ScrollingModule,
     ServiceWorkerModule.register('ngsw-worker.js', {

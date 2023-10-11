@@ -8,7 +8,7 @@
 }
 
 .example-viewport {
-    width: 100%;
+    width: 200px;
     height: 100%;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */

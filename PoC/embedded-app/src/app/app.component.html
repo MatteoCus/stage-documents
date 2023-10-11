@@ -6,8 +6,12 @@
 <app-login *ngIf="!logged"></app-login> -->
 
 <app-nav-bar ></app-nav-bar>
-<div id="main">
-    <app-phases ></app-phases>
-    <app-attributes ></app-attributes>
-</div>
-<app-login ></app-login>
+<mat-drawer-container class="example-container" [hasBackdrop]="true">
+    <mat-drawer #drawer mode="over" opened>
+        <app-phases ></app-phases>
+    </mat-drawer>
+    <mat-drawer-content>
+        <app-attributes ></app-attributes>
+        <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
+    </mat-drawer-content>
+  </mat-drawer-container>

@@ -1,15 +1,5 @@
-#main{
-    display: flex;
-    height: 100%;
-}
-
-app-phases{
-    flex: 0 0 250px;
-    border-right: 1px solid black;
-    height: 100%;
-}
-
-app-attributes{
-    flex: clamp(250px, 70%, 100%);
-    height: 100%;
-}
+.example-container {
+    width: 100%;
+    height: calc(100% - 70px);
+  }
+  
