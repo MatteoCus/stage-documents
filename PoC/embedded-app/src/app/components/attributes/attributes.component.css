@@ -1,0 +1,21 @@
+/* .mat-row, tr { display: block ; float: left ; }
+th[mat-header-cell], td[mat-cell] { display: block; } */
+
+table, .mat-mdc-table {
+    display: flex;
+  }
+  
+  tbody {
+    flex-basis: 80% !important;
+  }
+  
+  thead {
+    flex-basis: 20% !important;
+  }
+  
+  table tr, table .mat-row {
+      vertical-align: top;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+  }
