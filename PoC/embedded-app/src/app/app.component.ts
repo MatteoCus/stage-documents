@@ -12,11 +12,13 @@ export class AppComponent {
   title = 'embedded-app';
   visible: boolean = true;
   logged: boolean = false;
+  crossOriginData = "";
   private token: string = "";
   constructor(private translate: TranslateService, private route: ActivatedRoute, private phasesService: PhasesService){
     this.translate.setDefaultLang('it');
     this.translate.use(localStorage.getItem('lang') || 'it');
   }
+  
 
   setLanguage(lang: string): void {
     localStorage.setItem('lang', lang);
@@ -24,29 +26,23 @@ export class AppComponent {
   }
   
   ngOnInit() {
+
+    window.addEventListener("message", (event) => {
+      console.log("Evento: " + event.data);
+      if(event.source == parent) {
+        console.log(event.data);
+        this.crossOriginData = event.data;
+      }
+    });
+
     this.route.queryParams
       .subscribe(params => {
-        if(params && params['token'] && params['phase'] && params['lang']){
-
-          this.token = params['token'];
-          const lang = params['lang'];
-
-          this.setLanguage(lang);
-
-          this.visible = false;
-          this.logged = true;
-
-          var phase = params['phase'];
-          var service = this.phasesService; 
-
-          // Osserva il rendering del frame stesso: appena renderizzato, fa il fetch degli attributi
-          var observer = new MutationObserver(function() {
-            if (document.getElementById('main') != null) {
-              service.update(phase);
-              observer.disconnect();
-             }
-         });
-         observer.observe(document, {attributes: false, childList: true, characterData: false, subtree:true})
+        if(params && params['inside']){
+          console.log(params['inside']);
+          if(params['inside'] == "true") {
+            this.visible = false;
+            console.log(this.visible);
+          }
         }
       }
     );

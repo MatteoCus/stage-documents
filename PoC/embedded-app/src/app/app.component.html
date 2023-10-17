@@ -11,7 +11,8 @@
         <app-phases ></app-phases>
     </mat-drawer>
     <mat-drawer-content>
-        <app-attributes ></app-attributes>
+        <p>{{crossOriginData | json}}</p>
+        <app-attributes *ngIf="visible" ></app-attributes>
         <button mat-raised-button (click)="drawer.toggle()">Toggle drawer</button>
     </mat-drawer-content>
   </mat-drawer-container>
