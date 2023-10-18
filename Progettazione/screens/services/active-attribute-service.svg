@@ -1,0 +1,110 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="447.90771484375" height="181">
+    <defs />
+    <g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="752" y="465" width="426.90771484375" height="161"
+                transform="matrix(1 0 0 1 -742 -455)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 10 L 436.90771484375 10 L 436.90771484375 171 L 10 171 L 10 10 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 35 L 437.90771484375 35" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 103 L 437.90771484375 103" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="965.953857421875" y="478.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">ActiveAttributesService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="501.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">-activeAttributes:
+                    Subject&lt;Array&lt;QualityattributeModel&gt;&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="516.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">-activePhaseService: ActivePhaseService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="531.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">-qualityAttributeService:
+                    QualityAttributeService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="546.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">-authInfoService: AuthInformationsService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="569.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">-fetchAttributes(activePhase:
+                    QualityphaseModel): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="584.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">-filterJsonOptions(attribute:
+                    QualityattributeModel): QualityattributeModel</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="599.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">+getActiveAttributes():
+                    Observable&lt;Array&lt;QualityattributeModel&gt;&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="757"
+                    y="614.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -742 -455)">+update(attributes:
+                    Array&lt;QualityattributeModel&gt;): void</text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="282.0625" height="78">
+    <defs />
+    <g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="835" y="516" width="261.0625" height="58"
+                transform="matrix(1 0 0 1 -825 -506)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 10 L 271.0625 10 L 271.0625 68 L 10 68 L 10 10 Z Z" stroke-miterlimit="10"
+                stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 35 L 272.0625 35" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 45 L 272.0625 45" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined" x="966.03125"
+                    y="529.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -825 -506)">OptionsPipe</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="840"
+                    y="562.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -825 -506)">+transform(option: string, key: string):
+                    string</text>
+            </g>
+        </g>
+    </g>
+</svg>

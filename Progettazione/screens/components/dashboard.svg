@@ -1,0 +1,774 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="1488.953125" height="764">
+    <defs />
+    <g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="788" y="206" width="253.5087890625" height="163"
+                transform="matrix(1 0 0 1 -54 -196)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 734 10 L 987.5087890625 10 L 987.5087890625 173 L 734 173 L 734 10 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 734 35 L 988.5087890625 35" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 734 163 L 988.5087890625 163" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="915.25439453125" y="219.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">DashboardComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="242.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-router: Router</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="257.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-queryListener: function</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="272.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">«get/set»-insideFrame: boolean</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="287.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+mobileQuery: MediaQueryList;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="302.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+tabletQuery: MediaQueryList;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="317.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-route: ActivatedRoute</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="332.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-iframeInitService:
+                    IframeInitializerService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="793"
+                    y="347.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-authInfoService: AuthInformationsService</text>
+            </g>
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="64" y="464" width="493.07568359375" height="296"
+                transform="matrix(1 0 0 1 -54 -196)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 268 L 503.07568359375 268 L 503.07568359375 564 L 10 564 L 10 268 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 293 L 504.07568359375 293" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 436 L 504.07568359375 436" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="311.037841796875" y="477.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">LogModifierComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="500.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+activeAttributes:
+                    Array&lt;QualityattributeModel&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="515.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-activeAttributesService:
+                    ActiveAttributesService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="530.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+displayedColumns: Array&lt;string&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="545.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-snackBar: MatSnackBar</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="560.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-form: FormGroup</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="575.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+addLog: boolean</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="590.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-dialog: MatDialog</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="605.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-translateService: TranslateService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="620.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-authInfoService: AuthInformationsService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="643.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+add(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="658.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+update(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="673.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-openSnackBar(message: string, type:
+                    string): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="688.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-initializeForm(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="703.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+addDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="718.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+updateDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="69"
+                    y="733.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-clearDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 806 174 L 715 315" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 716.9739634044475 304.17856439847736 L 715 315 L 724.0477134051091 308.74389241308876"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="576" y="512" width="301.90966796875" height="131"
+                transform="matrix(1 0 0 1 -54 -196)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 522 316 L 823.90966796875 316 L 823.90966796875 447 L 522 447 L 522 316 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 522 341 L 824.90966796875 341" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 522 424 L 824.90966796875 424" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="727.454833984375" y="525.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">LogViewerComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="581"
+                    y="548.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-activeAttributesService:
+                    ActiveAttributesService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="581"
+                    y="563.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+displayedColumns: Array&lt;string&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="581"
+                    y="578.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-snackBar: MatSnackBar</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="581"
+                    y="593.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-translateService: TranslateService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="581"
+                    y="608.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-authInfoService: AuthInformationsService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="581"
+                    y="631.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-openSnackBar(message: string, type:
+                    string): void</text>
+            </g>
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="776" y="744" width="301.90966796875" height="206"
+                transform="matrix(1 0 0 1 -54 -196)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 722 548 L 1023.90966796875 548 L 1023.90966796875 754 L 722 754 L 722 548 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 722 573 L 1024.90966796875 573" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 722 701 L 1024.90966796875 701" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="927.454833984375" y="757.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">PhasesComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="780.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-activePhaseService: ActivePhaseService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="795.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+phases: Array&lt;QualityphaseModel&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="810.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-snackBar: MatSnackBar</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="825.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+qualityPhaseService: QualityPhaseService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="840.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+loading: boolean</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="855.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-translateService: TranslateService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="870.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-authInfoService: AuthInformationsService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="885.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-logoutService: LogoutService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="908.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+setActivePhase(phase: QualityphaseModel)</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="923.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-openSnackBar(message: string, type:
+                    string): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="781"
+                    y="938.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+select(id: string): void</text>
+            </g>
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 910 174 L 994 315" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 985.1822872117598 308.4236833117539 L 994 315 L 992.4150936183692 304.1147773673909"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="984" y="512" width="190.30517578125" height="101"
+                transform="matrix(1 0 0 1 -54 -196)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 930 316 L 1120.30517578125 316 L 1120.30517578125 417 L 930 417 L 930 316 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 930 341 L 1121.30517578125 341" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 930 379 L 1121.30517578125 379" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="1079.652587890625" y="525.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">SidenavComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="989"
+                    y="548.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-dialog: MatDialog</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="989"
+                    y="563.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-logoutService: LogoutService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="989"
+                    y="586.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+openLogoutDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="989"
+                    y="601.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+openLogoutUserDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 975 174 L 1145 296" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 1134.2890997261304 293.4946825903249 L 1145 296 L 1139.19777671314 286.654722854328"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="1200" y="464" width="331.953125" height="296"
+                transform="matrix(1 0 0 1 -54 -196)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 1146 268 L 1477.953125 268 L 1477.953125 564 L 1146 564 L 1146 268 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 1146 293 L 1478.953125 293" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 1146 496 L 1478.953125 496" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="1366.4765625" y="477.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">ToolbarComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="500.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+today: Date</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="515.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+user: string</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="530.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+languages: Array&lt;string&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="545.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+activeLanguage: string</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="560.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+isDark: boolean</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="575.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+strictLang: Array&lt;string&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="590.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-queryListener: function</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="605.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+mobileQuery: MediaQueryList</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="620.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-dialog: MatDialog</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="635.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-languageService: LanguageService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="650.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-themeService: ThemeService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="665.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-logoutService: LogoutService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="680.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">-authInfoService: AuthInformationsService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="703.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+toggleTheme({checked}:
+                    MatSlideToggleChange): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="718.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+changeActiveLanguage(language: string):
+                    void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="733.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+openLogoutDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1205"
+                    y="748.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -54 -196)">+openLogoutUserDialog(): void</text>
+            </g>
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 733 159 L 504 283" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 510.93223762469756 274.4592692634221 L 504 283 L 514.9410408533429 281.8626236130975"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 862 174 L 870 547" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 865.5735340078203 536.9299255802116 L 870 547 L 873.9906337895237 536.7493979709525"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+    </g>
+</svg>
