@@ -1,0 +1,245 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    width="881.7568359375" height="474">
+    <defs />
+    <g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="624" y="248" width="320" height="161"
+                transform="matrix(1 0 0 1 -270 -238)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 354 10 L 674 10 L 674 171 L 354 171 L 354 10 Z Z" stroke-miterlimit="10"
+                stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 354 35 L 675 35" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 354 118 L 675 118" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined" x="784.5"
+                    y="261.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">PhasesComponent</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="284.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+phases: Array&lt;QualityphaseModel&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="299.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">-authInfoService: AuthInformationService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="314.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+loading: boolean</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="329.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">-snackBar: MatSnackBar</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="344.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">-translateService: TranslateService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="367.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+setActivePhase(phase: QualityphaseModel)</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="382.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">-openSnackBar(message: string, type:
+                    string): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="629"
+                    y="397.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+select(id: string): void</text>
+            </g>
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="824" y="448" width="316.7568359375" height="101"
+                transform="matrix(1 0 0 1 -270 -238)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 554 210 L 870.7568359375 210 L 870.7568359375 311 L 554 311 L 554 210 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 554 235 L 871.7568359375 235" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 554 273 L 871.7568359375 273" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="982.87841796875" y="461.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">ActivePhaseService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="829"
+                    y="484.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">-activePhase:
+                    Subject&lt;QualityphaseModel&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="829"
+                    y="499.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">-lastValue: QualityphaseModel</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="829"
+                    y="522.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+update(phase: QualityphaseModel): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="829"
+                    y="537.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+getActivePhase():
+                    Observable&lt;QualityphaseModel&gt;</text>
+            </g>
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 610 172 L 653 209" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 642.5509580302618 205.5623377253359 L 653 209 L 648.0422058721393 199.18061726045113"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="280" y="616" width="834.85888671875" height="86"
+                transform="matrix(1 0 0 1 -270 -238)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 378 L 844.85888671875 378 L 844.85888671875 464 L 10 464 L 10 378 Z Z"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 403 L 845.85888671875 403" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 10 426 L 845.85888671875 426" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="bold" text-decoration="undefined"
+                    x="697.929443359375" y="629.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">QualityPhaseService</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="285"
+                    y="652.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+Fetch_2Path: string {readOnly}</text>
+                <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                    d=" M 15 421 L 200.3642578125 421" stroke-miterlimit="10" stroke-dasharray="" />
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="285"
+                    y="675.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+fetch_2$Response(params: Fetch_2$Params,
+                    context?: HttpContext):
+                    Observable&lt;StrictHttpResponse&lt;FetchResponseQualityphaseModel&gt;&gt;</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="285"
+                    y="690.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -270 -238)">+fetch_2(params: Fetch_2$Params, context?:
+                    HttpContext): Observable&lt;FetchResponseQualityphaseModel&gt;</text>
+            </g>
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 492 172 L 439 377" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 437.4682688724031 366.1071675055223 L 439 377 L 445.61929825589607 368.2145068095473"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+    </g>
+</svg>
