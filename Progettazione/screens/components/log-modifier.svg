@@ -1,10 +1,10 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="514.07568359375" height="448">
+    width="514.07568359375" height="482">
     <defs />
     <g>
         <g>
-            <rect fill="#ffffff" stroke="none" x="221" y="241" width="493.07568359375" height="296"
-                transform="matrix(1 0 0 1 -211 -231)" />
+            <rect fill="#ffffff" stroke="none" x="1165" y="607" width="493.07568359375" height="296"
+                transform="matrix(1 0 0 1 -1155 -597)" />
         </g>
         <g>
             <path fill="none" stroke="#000000" paint-order="fill stroke markers"
@@ -17,24 +17,24 @@
         </g>
         <g>
             <path fill="none" stroke="#000000" paint-order="fill stroke markers"
-                d=" M 10 178 L 504.07568359375 178" stroke-miterlimit="10" stroke-dasharray="" />
+                d=" M 10 193 L 504.07568359375 193" stroke-miterlimit="10" stroke-dasharray="" />
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
                     font-style="normal" font-weight="bold" text-decoration="undefined"
-                    x="468.037841796875" y="254.5" text-anchor="middle" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">LogModifierComponent</text>
+                    x="1412.037841796875" y="620.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">LogModifierComponent</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="277.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+activeAttributes:
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="643.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+activeAttributes:
                     Array&lt;QualityattributeModel&gt;</text>
             </g>
         </g>
@@ -42,9 +42,9 @@
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="292.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-activeAttributesService:
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="658.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-activeAttributesService:
                     ActiveAttributesService</text>
             </g>
         </g>
@@ -52,90 +52,99 @@
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="307.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+displayedColumns: Array&lt;string&gt;</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="673.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+displayedColumns: Array&lt;string&gt;</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="322.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-snackBar: MatSnackBar</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="688.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-snackBar: MatSnackBar</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="337.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-form: FormGroup</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="703.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-form: FormGroup</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="352.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+addLog: boolean</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="718.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+addLog: boolean</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="367.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-dialog: MatDialog</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="733.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-dialog: MatDialog</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="382.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-translateService: TranslateService</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="748.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-translateService: TranslateService</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="397.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-authInfoService: AuthInformationsService</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="763.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-authInfoService: AuthInformationsService</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="420.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+add(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="778.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-loadingService: LoadingService</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="435.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+update(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="801.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+add(): void</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="450.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-openSnackBar(message: string, type:
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="816.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+update(): void</text>
+            </g>
+        </g>
+        <g>
+            <g>
+                <path fill="none" stroke="none" />
+                <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="831.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-openSnackBar(message: string, type:
                     string): void</text>
             </g>
         </g>
@@ -143,80 +152,89 @@
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="465.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-initializeForm(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="846.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-initializeForm(): void</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="480.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+addDialog(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="861.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+addDialog(): void</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="495.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+updateDialog(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="876.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+updateDialog(): void</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="226"
-                    y="510.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">-clearDialog(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1170"
+                    y="891.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">-clearDialog(): void</text>
             </g>
-        </g>
-        <g>
-            <rect fill="#ffffff" stroke="none" x="288" y="568" width="350.71044921875" height="101"
-                transform="matrix(1 0 0 1 -211 -231)" />
         </g>
         <g>
             <path fill="none" stroke="#000000" paint-order="fill stroke markers"
-                d=" M 77 337 L 427.71044921875 337 L 427.71044921875 438 L 77 438 L 77 337 Z Z"
+                d=" M 254 307 L 253 370" stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 248.95230442497564 359.77179583055135 L 253 370 L 257.3702795382992 359.9054144831438"
+                stroke-miterlimit="10" stroke-dasharray="" />
+        </g>
+        <g>
+            <rect fill="#ffffff" stroke="none" x="1232" y="968" width="350.71044921875" height="101"
+                transform="matrix(1 0 0 1 -1155 -597)" />
+        </g>
+        <g>
+            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
+                d=" M 77 371 L 427.71044921875 371 L 427.71044921875 472 L 77 472 L 77 371 Z Z"
                 stroke-miterlimit="10" stroke-dasharray="" />
         </g>
         <g>
             <path fill="none" stroke="#000000" paint-order="fill stroke markers"
-                d=" M 77 362 L 428.71044921875 362" stroke-miterlimit="10" stroke-dasharray="" />
+                d=" M 77 396 L 428.71044921875 396" stroke-miterlimit="10" stroke-dasharray="" />
         </g>
         <g>
             <path fill="none" stroke="#000000" paint-order="fill stroke markers"
-                d=" M 77 400 L 428.71044921875 400" stroke-miterlimit="10" stroke-dasharray="" />
+                d=" M 77 434 L 428.71044921875 434" stroke-miterlimit="10" stroke-dasharray="" />
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
                     font-style="normal" font-weight="bold" text-decoration="undefined"
-                    x="463.855224609375" y="581.5" text-anchor="middle" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">ConfirmDataDialog</text>
+                    x="1407.855224609375" y="981.5" text-anchor="middle" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">ConfirmDataDialog</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="293"
-                    y="604.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+fromPage: string</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1237"
+                    y="1004.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+fromPage: string</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="293"
-                    y="619.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+dialogRef:
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1237"
+                    y="1019.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+dialogRef:
                     MatDialogRef&lt;ConfirmDataDialogComponent&gt;</text>
             </g>
         </g>
@@ -224,28 +242,19 @@
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="293"
-                    y="642.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+confirm(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1237"
+                    y="1042.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+confirm(): void</text>
             </g>
         </g>
         <g>
             <g>
                 <path fill="none" stroke="none" />
                 <text fill="#000000" stroke="none" font-family="Arial" font-size="13px"
-                    font-style="normal" font-weight="normal" text-decoration="undefined" x="293"
-                    y="657.5" text-anchor="start" dominant-baseline="central"
-                    transform="matrix(1 0 0 1 -211 -231)">+cancel(): void</text>
+                    font-style="normal" font-weight="normal" text-decoration="undefined" x="1237"
+                    y="1057.5" text-anchor="start" dominant-baseline="central"
+                    transform="matrix(1 0 0 1 -1155 -597)">+cancel(): void</text>
             </g>
-        </g>
-        <g>
-            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
-                d=" M 253 307 L 253 336" stroke-miterlimit="10" stroke-dasharray="" />
-        </g>
-        <g>
-            <path fill="none" stroke="#000000" paint-order="fill stroke markers"
-                d=" M 248.790482243984 325.8373251423759 L 253 336 L 257.209517756016 325.8373251423759"
-                stroke-miterlimit="10" stroke-dasharray="" />
         </g>
     </g>
 </svg>

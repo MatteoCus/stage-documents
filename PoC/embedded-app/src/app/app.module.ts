@@ -24,6 +24,8 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import {MatTableModule} from '@angular/material/table';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { SplashScreenComponent } from './splash-screen/splash-screen.component';
+import { HomeComponent } from './home/home.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -37,6 +39,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     LoginComponent,
     PhasesComponent,
     AttributesComponent,
+    SplashScreenComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
