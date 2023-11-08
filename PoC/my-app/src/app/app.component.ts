@@ -14,7 +14,7 @@ export class AppComponent {
     window.addEventListener("load", () => {
       var x = document.getElementById("frame") as any;
         x!.contentWindow.postMessage({
-          token: "eyJjcmVhdGVkIjoxNjk5MjU1ODg0MzQwLCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.Cny4dkuWKgxky-gP7y68ckJRwAZZq6n813KI7IEKvE0GEGQvAqkEV2jthvcgfTwx3MOdK1GpzPhc2iN8wtXhKg",
+          token: "eyJjcmVhdGVkIjoxNjk5NDI5MTQzNjk2LCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.6_dEWnTzv_KHO0Ma3TnGcEF4Nvk4MZGNeH0FJQiSdHvnrys5U-SDo2oC17vqbRlGrljiAqHneMDNYonQftBeWw",
           lang: "it",
           theme: "DM",
           username: "Simone Brazzarola",
@@ -31,7 +31,7 @@ export class AppComponent {
 
       var x = document.getElementById("frame") as any;
         x!.contentWindow.postMessage({
-          token: "eyJjcmVhdGVkIjoxNjk5MjU1ODg0MzQwLCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.Cny4dkuWKgxky-gP7y68ckJRwAZZq6n813KI7IEKvE0GEGQvAqkEV2jthvcgfTwx3MOdK1GpzPhc2iN8wtXhKg",
+          token: "eyJjcmVhdGVkIjoxNjk5NDI5MTQzNjk2LCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.6_dEWnTzv_KHO0Ma3TnGcEF4Nvk4MZGNeH0FJQiSdHvnrys5U-SDo2oC17vqbRlGrljiAqHneMDNYonQftBeWw",
           lang: "it",
           theme: "DM",
           username: "Simone Brazzarola",
@@ -46,7 +46,7 @@ export class AppComponent {
 
       var x = document.getElementById("frame") as any;
         x!.contentWindow.postMessage({
-          token: "eyJjcmVhdGVkIjoxNjk5MjU1ODg0MzQwLCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.Cny4dkuWKgxky-gP7y68ckJRwAZZq6n813KI7IEKvE0GEGQvAqkEV2jthvcgfTwx3MOdK1GpzPhc2iN8wtXhKg",
+          token: "eyJjcmVhdGVkIjoxNjk5NDI5MTQzNjk2LCJhbGciOiJIUzUxMiJ9.eyJ1c2VySWQiOiI5MDAwMDY4IiwidXNlcm5hbWUiOiJNYXR0ZW9DIiwiYWRfY2xpZW50X2lkIjoiOTAwMDAwMCIsImFkX29yZ19pZCI6IjAiLCJhZF9yb2xlX2lkIjoiOTAwMDAwMSIsImFkX2xhbmd1YWdlX2lkIjoiaXRfSVQiLCJhdXRob3JpemF0aW9ucyI6W119.6_dEWnTzv_KHO0Ma3TnGcEF4Nvk4MZGNeH0FJQiSdHvnrys5U-SDo2oC17vqbRlGrljiAqHneMDNYonQftBeWw",
           lang: "it",
           theme: "DM",
           username: "Simone Brazzarola",
