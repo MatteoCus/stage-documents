@@ -9,6 +9,6 @@ This repository contains all the produced documents for curricular internship @T
 ## Documents
 
 
-- [Analisi dei Requisiti](/Analisi/Analisi%20dei%20Requisiti.pdf)
-- [Specifica Tecnica](/Progettazione/Specifica%20Tecnica.pdf)
+- [Analisi dei Requisiti](/Analisi/Analisi%20dei%20requisiti.pdf)
+- [Specifica Tecnica](/Progettazione/SpecificaTecnica.pdf)
 - [Manuale Utente](/Manuale%20utente/Manuale%20Utente.pdf)
